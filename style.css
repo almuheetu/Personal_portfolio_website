@@ -190,3 +190,8 @@ nav ul li a:hover::after {
     margin-top: 20px;
     display: inline-block;
 }
+
+/* portfolio started */
+#portfolio{
+    padding: 50px 0;
+}
