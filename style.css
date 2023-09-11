@@ -37,6 +37,9 @@ nav {
 .logo {
     width: 140px;
 }
+nav .fas {
+    display: none;
+}
 
 nav ul li {
     display: inline-block;
