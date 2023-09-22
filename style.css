@@ -35,7 +35,17 @@ nav {
 }
 
 .logo {
-    width: 140px;
+	width: 280px;
+}
+.logo a {
+	font-size: 50px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 550;
+}
+.logo a span{
+	color: #ff004f;
+	font-weight: 600;
 }
 
 nav .fas {
@@ -213,11 +223,13 @@ nav ul li a:hover::after {
     position: relative;
     overflow: hidden;
 }
-.work img{
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    transition: transform 0.5s;
+.work img {
+	width: 100%;
+	border-radius: 10px;
+	display: block;
+	transition: transform 0.5s;
+	height: 200px;
+	margin-top: 20px;
 }
 .layer{
     width: 100%;
