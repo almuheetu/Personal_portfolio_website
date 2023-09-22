@@ -61,10 +61,24 @@
         font-size: 14px;
     }
 
+    .head-content p {
+        padding: 0px 0px;
+    }
+    .header-text {
+        margin-top: 20%;
+        font-size: 20px;
+    }
+    .logo a {
+        font-size: 40px;
+    }
+    .logo {
+        width: 230px;
+    }
+
     
 
 }
-@media only screen and (min-width: 450px) and (max-width: 850px) {
+@media only screen and (min-width: 450px) and (max-width: 992px) {
     /* #header {
         background-image: url(images/phone-background.png);
     } */
@@ -113,4 +127,8 @@
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+    .head-content p {
+        padding: 0px 0px;
+    }
+
 }
