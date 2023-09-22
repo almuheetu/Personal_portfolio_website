@@ -18,7 +18,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(images/back-1.png);
+    /* background-image: url(images/back.png); */
     background-size: cover;
     background-position: center;
 }
@@ -218,10 +218,11 @@ nav ul li a:hover::after {
     grid-gap: 40px;
     margin-top: 50px;
 }
-.work{
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
+.work {
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #3e3c3c;
 }
 .work img {
 	width: 100%;
@@ -354,4 +355,39 @@ form .btn-2{
 }
 .copyright i{
     color: #ff004f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .work p {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 25px;
+	text-transform: uppercase;
+} */
+.text {
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid #333;
+	text-align: center;
+	width: 145px;
+	background: #272524;
+	border-radius: 10px;
+	margin: 15px auto;
+	color: #fff;
+	padding: 5px 10px;
 }
