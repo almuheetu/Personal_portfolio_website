@@ -288,10 +288,14 @@ nav ul li a:hover::after {
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
-    transition: background 0.5s;
+   
 }
 .btn:hover{
-    background: #ff004f;
+
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #ff004f;
+    /* transition: .5s; */
+    transition: background 0.5s;
 }
 
 
@@ -326,7 +330,8 @@ nav ul li a:hover::after {
 }
 .social-icons a:hover{
     color: #ff004f;
-    transform: translateY(-5px);
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #ff004f;
 }
 .h-btn:hover {
     background: var(--main-color);
@@ -447,15 +452,16 @@ form .btn-2{
 
 
 .h-btn {
-    display: inline-block;
-    padding: 11px 26px;
-    background: transparent;
-    color: var(--main-color);
-    border: 2px solid #ff004f;
-    border-radius: 8px;
-    font-size: 15px;
-    font-weight: 600;
-    transition: all .50s ease;
+	display: inline-block;
+	padding: 11px 26px;
+	background: transparent;
+	color: var(--main-color);
+	border: 2px solid #ff004f;
+	border-radius: 6px;
+	font-size: 15px;
+	font-weight: 600;
+	transition: all .50s ease;
+	text-decoration: none;
 }
 .h-btn:hover {
     background: var(--main-color);
