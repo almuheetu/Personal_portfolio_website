@@ -186,13 +186,14 @@ nav ul li a:hover::after {
     grid-gap: 40px;
     margin-top: 50px;
 }
-.services-list div{
-    background: #262626;
-    padding: 40px;
-    font-size: 13px;
-    font-weight: 300;
-    border-radius: 10px;
-    transition: background 0.5s, transform 0.5s;
+.services-list div {
+	background: #262626;
+	padding: 40px;
+	font-size: 13px;
+	font-weight: 300;
+	border-radius: 10px;
+	transition: background 0.5s, transform 0.5s;
+	box-shadow: 0px 3px 18px #fff;
 }
 .services-list div:hover {
 	background: transparent;
@@ -232,14 +233,17 @@ nav ul li a:hover::after {
 	position: relative;
 	overflow: hidden;
 	border: 1px solid #3e3c3c;
+	box-shadow: 0 0 20px #ff004f;
+	transition: .5s;
 }
 .work img {
 	width: 100%;
-	border-radius: 10px;
+	border-radius: 6px;
 	display: block;
-	transition: transform 0.5s;
+	transition: transform 0.5s ease-in-out;
 	height: 200px;
 	margin-top: 20px;
+	transform: scale(.90);
 }
 .layer{
     width: 100%;
@@ -275,12 +279,12 @@ nav ul li a:hover::after {
     border-radius: 50%;
     text-align: center;
 }
-.work:hover img{
-    transform: scale(1.1);
+.work:hover img {
+	transform: scale(1);
 }
-.work:hover .layer{
+/* .work:hover .layer{
     height: 100%;
-}
+} */
 
 
 
@@ -390,16 +394,18 @@ form .btn-2{
 	text-transform: uppercase;
 } */
 .text {
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: bold;
-	border: 1px solid #333;
+	border: 1px solid transparent;
 	text-align: center;
-	width: 100%;
+	width: 40%;
 	background: #272524;
-	border-radius: 7px;
-	margin: 15px auto;
-	color: #fff;
+	border-radius: 5px;
+	margin: 20px auto;
+	color: #ff004f;
 	padding: 10px;
+	/* box-shadow: 0px 0px 14px #fff; */
+    transition: .3s;
 }
 .head-content p {
 	font-size: 17px;
@@ -515,4 +521,35 @@ form .btn-2{
 	transition: .4s;
 	font-weight: bold;
 	border-radius: 6px;
+}
+.services-list div a {
+	box-shadow: 0 0 20px #fff;
+	color: #fff;
+	background: transparent;
+	border: 1px solid transparent;
+	padding: 7px 7px;
+	transition: .4s;
+	font-weight: bold;
+	border-radius: 6px;
+}
+
+.text a {
+	color: #fff;
+	text-decoration: none;
+}
+.text span {
+	color: #ff004f;
+	font-weight: bold;
+}
+.text:hover {
+	color: #ff004f;
+	transform: scale(1.1);
+    box-shadow: 0px 0px 14px #ff004f;
+
+}
+.work-list .work:hover {
+	background: transparent;
+	transform: translateY(-23px);
+	box-shadow: 1px -5px 30px #fff;
+	color: #ff004f;
 }
