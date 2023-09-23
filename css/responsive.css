@@ -1,6 +1,6 @@
 
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 499px) {
     /* #header {
         background-image: url(images/phone-background.png);
     } */
@@ -86,6 +86,7 @@
         display: inline-block;
         text-decoration: none;
         margin-right: 3px;
+        margin-bottom: 10px;
     }
     .header-button {
         margin-top: 20%;
@@ -103,7 +104,7 @@
     
 
 }
-@media only screen and (min-width: 460px) and (max-width: 992px) {
+@media only screen and (min-width: 500px) and (max-width: 992px) {
     /* #header {
         background-image: url(images/phone-background.png);
     } */
@@ -157,12 +158,11 @@
     }
 
     .btn-2 {
-        margin-top: 0px;
         background: #ff004f;
-        margin-bottom: 25px;
+        margin: 30px auto;
     }
     .header-button {
-        margin-top: 15%;
+        margin-top: 8%;
     }
 
 }
@@ -170,6 +170,12 @@
 
     .head-content p {
         padding: 0px 140px;
+    }
+    .header-button {
+        margin-top: 5%;
+    }
+    #about {
+        padding: 65px 0;
     }
 
 }
