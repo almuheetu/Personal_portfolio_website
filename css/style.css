@@ -194,9 +194,11 @@ nav ul li a:hover::after {
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
 }
-.services-list div:hover{
-    background: #ff004f;
-    transform: translateY(-10px);
+.services-list div:hover {
+	background: transparent;
+	transform: translateY(-20px);
+	box-shadow: 0 0 20px #ff004f;
+	color: #ff004f;
 }
 .services-list div i{
     font-size: 50px;
@@ -312,9 +314,11 @@ nav ul li a:hover::after {
    transition: transform 0.5s;
 
 }
-.social-icons a:hover{
-    transform: scale(1.1);
-    color: #ff004f;
+.social-icons a:hover {
+	transform: scale(1.1);
+	color: #ff004f;
+	box-shadow: 0 0 20px #ff004f;
+	background: transparent;
 }
 
 .fa-brands, .fab {
@@ -496,4 +500,19 @@ form .btn-2{
 }
 .social-btn a i {
 	margin-right: 10px;
+}
+.services-list p {
+	color: #ababab;
+	line-height: 18px;
+}
+
+.services-list div a:hover {
+	box-shadow: 0 0 20px #ff004f;
+	color: #ff004f;
+	background: transparent;
+	border: 1px solid transparent;
+	padding: 7px 7px;
+	transition: .4s;
+	font-weight: bold;
+	border-radius: 6px;
 }
