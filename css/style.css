@@ -279,24 +279,7 @@ nav ul li a:hover::after {
 .work:hover .layer{
     height: 100%;
 }
-.btn{
-    display: block;
-    margin: 50px auto;
-    width: fit-content;
-    border: 1px solid #ff004f;
-    padding: 14px 50px;
-    border-radius: 6px;
-    text-decoration: none;
-    color: #fff;
-   
-}
-.btn:hover{
 
-    transform: scale(1.1);
-    box-shadow: 0 0 20px #ff004f;
-    /* transition: .5s; */
-    transition: background 0.5s;
-}
 
 
 /* contact */
@@ -327,11 +310,15 @@ nav ul li a:hover::after {
    color: #ababab;
    display: inline-block;
    transition: transform 0.5s;
+
 }
 .social-icons a:hover{
-    color: #ff004f;
     transform: scale(1.1);
-    box-shadow: 0 0 20px #ff004f;
+    color: #ff004f;
+}
+
+.fa-brands, .fab {
+	font-weight: bold;
 }
 .h-btn:hover {
     background: var(--main-color);
@@ -403,12 +390,12 @@ form .btn-2{
 	font-weight: bold;
 	border: 1px solid #333;
 	text-align: center;
-	width: 145px;
+	width: 100%;
 	background: #272524;
-	border-radius: 10px;
+	border-radius: 7px;
 	margin: 15px auto;
 	color: #fff;
-	padding: 5px 10px;
+	padding: 10px;
 }
 .head-content p {
 	font-size: 17px;
@@ -453,12 +440,12 @@ form .btn-2{
 
 .h-btn {
 	display: inline-block;
-	padding: 11px 26px;
+	padding: 14px 50px;
 	background: transparent;
 	color: var(--main-color);
 	border: 2px solid #ff004f;
 	border-radius: 6px;
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 600;
 	transition: all .50s ease;
 	text-decoration: none;
@@ -472,4 +459,41 @@ form .btn-2{
 
 .header-button {
 	margin-top: 4%;
+}
+.btn {
+	display: inline-block;
+	background: transparent;
+	padding: 14px 50px;
+	border: 2px solid #ff004f;
+	border-radius: 6px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	transition: all .50s ease;
+}
+.btn:hover {
+	background: var(--main-color);
+	color: #ff004f;
+	box-shadow: 0 0 20px #ff004f;
+	transform: scale(1.1);
+}
+.portfolio-btn {
+	text-align: center;
+	margin-top: 50px;
+}
+.btn-2 {
+	margin-top: 30px;
+	background: #ff004f;
+	padding: 14px 28px;
+}
+
+.social-btn a {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 14px 30px;
+	display: inline-block;
+	text-decoration: none;
+}
+.social-btn a i {
+	margin-right: 10px;
 }

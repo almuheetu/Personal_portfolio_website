@@ -1,6 +1,6 @@
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 460px) {
     /* #header {
         background-image: url(images/phone-background.png);
     } */
@@ -78,10 +78,32 @@
         font-size: 30px;
     }
 
+
+    .social-btn a {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 14px 14px;
+        display: inline-block;
+        text-decoration: none;
+        margin-right: 3px;
+    }
+    .header-button {
+        margin-top: 20%;
+    }
+    #about {
+        padding: 50px 0;
+    }
+    #header {
+        margin-bottom: 50px;
+    }
+    .btn-2 {
+        margin-bottom: 25px;
+    }
+
     
 
 }
-@media only screen and (min-width: 450px) and (max-width: 992px) {
+@media only screen and (min-width: 460px) and (max-width: 992px) {
     /* #header {
         background-image: url(images/phone-background.png);
     } */
@@ -132,6 +154,15 @@
     }
     .head-content p {
         padding: 0px 0px;
+    }
+
+    .btn-2 {
+        margin-top: 0px;
+        background: #ff004f;
+        margin-bottom: 25px;
+    }
+    .header-button {
+        margin-top: 15%;
     }
 
 }
