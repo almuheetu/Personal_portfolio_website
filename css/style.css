@@ -37,6 +37,7 @@ nav {
 
 .logo {
 	width: 280px;
+	transition: .5s;
 }
 .logo a {
 	font-size: 50px;
@@ -585,4 +586,5 @@ form .btn-2{
 .logo:hover {
 	box-shadow: 0 0 20px #ff004f;
 	border-radius: 6px;
+	transform: translateY(20px);
 }
