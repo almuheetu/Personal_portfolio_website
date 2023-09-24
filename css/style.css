@@ -135,7 +135,7 @@ nav ul li a:hover::after {
 	transition: .5s;
 }
 .about-col-1 img:hover {
-	box-shadow: 0 0 30px #ff004f;
+	box-shadow: 0 0 30px #fff;
 	transform: translateY(-20px);
 }
 
