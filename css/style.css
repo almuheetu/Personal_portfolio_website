@@ -666,6 +666,12 @@ Questions
   .show-text .plus-icon {
 	display: none;
   }
+
+
+  .list li {
+	color: #ababab;
+	font-size: 14px;
+}
   
 
 
