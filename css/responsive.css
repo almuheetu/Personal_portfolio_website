@@ -104,6 +104,12 @@
         font-size: small;
     }
 
+    .list {
+        font-size: 12px;
+        line-height: 15px;
+        /* text-align: left; */
+    }
+
     
 
 }
@@ -172,6 +178,11 @@
     }
     .text a {
         font-size: small;
+    }
+    .list {
+        font-size: 12px;
+        line-height: 15px;
+        /* text-align: left; */
     }
 
 }
