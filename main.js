@@ -26,3 +26,23 @@ function openmenu(){
 function closemenu(){
     sideMenu.style.right = "-200px";
 }
+
+
+//using selectors inside the element
+
+const questions = document.querySelectorAll('.question');
+questions.forEach(function (question) {
+    // questions.log(question);
+    const btn = question.querySelector(".question-btn");
+    // console.log(btn);
+    btn.addEventListener("click", function() {
+
+        questions.forEach(function(item) {
+            if(item !== question) {
+                item.classList.remove("show-text");
+            }
+        });
+
+        question.classList.toggle("show-text");
+    });
+});
