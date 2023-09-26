@@ -588,26 +588,3 @@ form .btn-2{
 	border-radius: 6px;
 	transform: translateY(20px);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* raf */
-.list {
-	font-size: 12px;
-	line-height: 10px;
-	/* text-align: left; */
-}
-.tab-contents p {
-	font-weight: bold;
-	font-size: 13px;
-}

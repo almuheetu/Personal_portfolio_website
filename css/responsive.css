@@ -104,13 +104,14 @@
         font-size: small;
     }
 
-    .list {
-        font-size: 12px;
-        line-height: 15px;
-        /* text-align: left; */
+    .tab-links {
+        font-size: 15px;
     }
 
-    
+    .about-col-2 p {
+        font-size: 13px;
+        /* padding: 0 10px; */
+    }
 
 }
 @media only screen and (min-width: 500px) and (max-width: 992px) {
@@ -178,11 +179,6 @@
     }
     .text a {
         font-size: small;
-    }
-    .list {
-        font-size: 12px;
-        line-height: 15px;
-        /* text-align: left; */
     }
 
 }
