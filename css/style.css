@@ -338,7 +338,6 @@ nav ul li a:hover::after {
 .social-icons a:hover {
 	transform: scale(1.1);
 	color: #ff004f;
-	box-shadow: 0 0 20px #ff004f;
 	background: transparent;
 }
 
