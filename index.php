@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal portfolio website</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri( ); ?>/css/style.css">
     <!-- <link rel="stylesheet" href="css/fontawesome.min.css"> -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri( ); ?>/css/responsive.css">
     <script src="https://kit.fontawesome.com/d2e5d32caa.js" crossorigin="anonymous"></script>
 </head>
 
@@ -64,7 +64,7 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/backkk.png" alt="">
+                    <img src="<?php echo get_template_directory_uri( ); ?>/images/backkk.png" alt="">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About <span>Me</span></h1>
@@ -324,29 +324,29 @@
             <h1 class="sub-title sub-titless">My <span>Portfolio</span></h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/Gardmia-2.png">
+                    <img src="<?php echo get_template_directory_uri( ); ?>/images/Gardmia-2.png">
                     <p class="text"><a href="https://almuheetu.github.io/gardomia/" target="_blank"><span><i
                                     class="fa-solid fa-link"></i></span>Gardomia</a></p>
                 </div>
                 <div class="work">
-                    <img src="images/Construction.png">
+                    <img src="<?php echo get_template_directory_uri( ); ?>/images/Construction.png">
                     <p class="text"><a href="https://almuheetu.github.io/Construction/" target="_blank"><span><i
                                     class="fa-solid fa-link"></i></span>Construction</a></p>
                 </div>
                 <div class="work">
-                    <img src="images/PioHost.png">
+                    <img src="<?php echo get_template_directory_uri( ); ?>/images/PioHost.png">
                     <p class="text"><a href="https://almuheetu.github.io/piohost/" target="_blank"><span><i
                                     class="fa-solid fa-link"></i></span>PioHost</a></p>
                 </div>
             </div>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/Xisen.png">
+                    <img src="<?php echo get_template_directory_uri( ); ?>/images/Xisen.png">
                     <p class="text"><a href="https://almuheetu.github.io/xisen/" target="_blank"><span><i
                                     class="fa-solid fa-link"></i></span>Xisen</a></p>
                 </div>
                 <div class="work">
-                    <img src="images/Gardomia.png">
+                    <img src="<?php echo get_template_directory_uri( ); ?>/images/Gardomia.png">
                     <p class="text"><a href="https://almuheetu.github.io/Ecommerce-Website/"><span><i class="fa-solid fa-link">.</i></span>Store</a></p>
                     <!-- <div class="layer">
                         <h3>Using :
@@ -356,7 +356,7 @@
                     </div> -->
                 </div>
                 <div class="work">
-                    <img src="images/Fundo.png">
+                    <img src="<?php echo get_template_directory_uri( ); ?>/images/Fundo.png">
                     <p class="text"><a href="https://almuheetu.github.io/fundu/" target="_blank"><span><i
                                     class="fa-solid fa-link"></i></span>Fundo</a></p>
                 </div>
