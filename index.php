@@ -390,7 +390,7 @@
                         <a href="https://www.linkedin.com/in/almuheetu-shihab-8bbbaa285/" target="_blank"><i
                                 class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href="images/CV/Almuheetu-shihab-CV.pdf" target="_blank" class="h-btn btn-2"><span><i
+                    <a href="<?php echo get_template_directory_uri( ); ?>/images/CV/Almuheetu-shihab-CV.pdf" target="_blank" class="h-btn btn-2"><span><i
                                 class="fa-solid fa-cloud-arrow-down"></i></span> Download
                         CV</a>
 
@@ -418,7 +418,7 @@
 
 
 
-    <script src="main.js"></script>
+    <script src="<?php echo get_template_directory_uri( ); ?>/main.js"></script>
 </body>
 
 </html>
